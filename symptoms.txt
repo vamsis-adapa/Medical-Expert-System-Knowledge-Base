@@ -1,0 +1,13 @@
+headache
+back_pain
+chest_pain
+cough
+fainting
+sore_throat
+fatigue
+restlessness
+low_body_temp
+fever
+sunken_eyes
+nausea
+blurred_vision

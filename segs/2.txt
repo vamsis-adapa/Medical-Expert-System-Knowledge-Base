@@ -1,0 +1,13 @@
+	@Rule(Fact(action='find_disease'),Fact(disease=MATCH.disease),salience = -998)
+	def disease(self, disease):
+		print("")
+		id_disease = disease
+		disease_details = get_details(id_disease)
+		treatments = get_treatments(id_disease)
+		print("")
+		print("The most probable disease that you have is %s\n" %(id_disease))
+		print("A short description of the disease is given below :\n")
+		print(disease_details+"\n")
+		print("The common medications and procedures suggested by other real doctors are: \n")
+		print(treatments+"\n")
+
